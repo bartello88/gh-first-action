@@ -7,3 +7,6 @@ def test_sum_function():
 
 def test_sum2_function():
     assert sum(4,5) == 9
+
+def test_sum3_function():
+    assert sum(4,10) == 14

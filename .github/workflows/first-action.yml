@@ -1,0 +1,18 @@
+# Workflow name
+name: First Workflow 
+
+# Events
+on: workflow_dispatch
+
+# Tasks to do
+jobs: 
+  first-ob:
+    runs-on: ununtu-latest
+    steps:
+      - name: Print greeting
+      run: echo "Hello world"
+      - name: Print goodbye
+      run: echo "Goodbye"
+    
+  
+  

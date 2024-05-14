@@ -34,4 +34,5 @@ jobs:
           cat app.py
       - name: Run code
         run: |
+          pip install pytest
           python app.py

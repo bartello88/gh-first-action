@@ -35,7 +35,7 @@ jobs:
       - name: Run code
         run: |
           pip install pytest
-          $(pwd)/source/python app.py
+          python $(pwd)/source/app.py
       - name: Run tests
         run: |
           cd tests

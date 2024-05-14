@@ -20,6 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Create Python Env
-        run: ls > plik.txt
+        run: |
+          ls > plik.txt
+          cat plik.txt
       
   

@@ -38,5 +38,5 @@ jobs:
           python app.py
       - name: Run tests
         run: |
-          cd test
+          cd tests
           pytest

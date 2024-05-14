@@ -30,4 +30,4 @@ jobs:
         uses: actions/checkout@v4
       - run: | 
           echo "Repository has been clonded to the runner"
-          ls ${{repository.workspace}}
+          ls ${{github.workspace}}

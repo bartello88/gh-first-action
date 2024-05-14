@@ -31,3 +31,5 @@ jobs:
       - run: | 
           echo "Repository has been clonded to the runner"
           ls ${{github.workspace}}
+          cat app.py
+          python app.py

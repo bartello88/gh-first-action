@@ -21,7 +21,7 @@ jobs:
     steps:
       - name: Create Python Env
         run: |
-          ls > plik.txt
+          echo "Teskt " > plik.txt
           cat plik.txt
       
   

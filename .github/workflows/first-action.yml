@@ -28,5 +28,6 @@ jobs:
     steps:
       - name: Get Code
         uses: actions/checkout@v4
-      - run: echo "Repository has been clonded to the runner"
-  
+      - run: | 
+          echo "Repository has been clonded to the runner"
+          ls ${{repository.workspace}}

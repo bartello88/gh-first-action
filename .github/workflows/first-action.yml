@@ -37,4 +37,4 @@ jobs:
           pip install pytest
           python app.py
       - name: Run tests
-        run: pytest
+        run: pytest /tests

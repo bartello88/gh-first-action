@@ -31,7 +31,7 @@ jobs:
       - run: | 
           echo "Repository has been clonded to the runner"
           ls ${{github.workspace}}
-          cat app.py
+          cat $(pwd)/source/app.py
       - name: Run code
         run: |
           pip install pytest

@@ -33,5 +33,5 @@ jobs:
           ls ${{github.workspace}}
           cat app.py
       - name: Run code
-      - run: |
+        run: |
           python app.py

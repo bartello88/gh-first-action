@@ -16,6 +16,10 @@ jobs:
         run: echo "Working"
       - name: Print Goodbye"
         run: echo "Goodbye"
-    
-  
+  second-ob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Python Env
+        run: ls > plik.txt
+      
   

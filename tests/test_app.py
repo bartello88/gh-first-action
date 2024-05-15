@@ -1,5 +1,5 @@
 import pytest
-from source.app import name
+import source.app 
 
 def test_app():
-  assert name == "Bartek"
+  assert app.name == "Bartek"

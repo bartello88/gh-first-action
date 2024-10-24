@@ -38,5 +38,6 @@ jobs:
           python $(pwd)/source/app.py
       - name: Run tests
         run: |
+          echo ${{secrets.DOCKER_NAME}}
           cd tests
           pytest
